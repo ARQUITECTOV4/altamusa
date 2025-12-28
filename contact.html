@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — ALTA MUSA</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="page">
+    <div id="header-slot"></div>
+
+    <main>
+      <section class="page-section">
+        <div class="container">
+          <h2 class="page-title">Contact</h2>
+          <p class="page-text">
+            Para bookings, castings o nuevas aplicaciones, escribe aquí.
+          </p>
+
+          <form class="form" onsubmit="event.preventDefault(); alert('Mensaje enviado.');">
+            <input class="input" type="text" name="name" placeholder="Nombre" required />
+            <input class="input" type="email" name="email" placeholder="Email" required />
+            <input class="input" type="text" name="subject" placeholder="Asunto" />
+            <textarea class="input" name="message" rows="6" placeholder="Mensaje" required></textarea>
+            <button class="btn" type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <div id="footer-slot"></div>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
