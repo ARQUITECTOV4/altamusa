@@ -410,6 +410,17 @@ main{ flex:1; }
     height: 34px;        /* antes se veía muy chico */
     width: auto;
   }
+/* === ALTA MUSA: LOGO MÁS GRANDE EN MÓVIL === */
+@media (max-width: 720px){
+  .brand-logo{
+    height: 72px; /* sube de 50px a 72px */
+    width: auto;
+  }
 
+  .header-top{
+    height: 92px; /* sube el header para que el logo no se sienta apretado */
+  }
 }
+
+
 
