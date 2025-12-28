@@ -395,3 +395,21 @@ main{ flex:1; }
   .brand-logo{ height: 50px; }
   .profile{ grid-column: span 12; }
 }
+/* =========================
+   MOBILE LOGO FIX – ALTA MUSA
+========================= */
+@media (max-width: 768px){
+
+  .site-header{
+    padding: 14px 0;
+  }
+
+  .brand img,
+  .site-logo,
+  .logo{
+    height: 34px;        /* antes se veía muy chico */
+    width: auto;
+  }
+
+}
+
